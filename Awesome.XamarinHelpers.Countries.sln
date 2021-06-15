@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Awesome.XamarinHelpers.Countries", "Awesome.XamarinHelpers.Countries\Awesome.XamarinHelpers.Countries.csproj", "{438F5A2A-46E1-4B27-8AF1-9AE6800FC901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{D71C80EF-FCAC-4EF5-8B9C-3DD824335B3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438F5A2A-46E1-4B27-8AF1-9AE6800FC901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438F5A2A-46E1-4B27-8AF1-9AE6800FC901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438F5A2A-46E1-4B27-8AF1-9AE6800FC901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438F5A2A-46E1-4B27-8AF1-9AE6800FC901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71C80EF-FCAC-4EF5-8B9C-3DD824335B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71C80EF-FCAC-4EF5-8B9C-3DD824335B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71C80EF-FCAC-4EF5-8B9C-3DD824335B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71C80EF-FCAC-4EF5-8B9C-3DD824335B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B51FFB5-3389-4E99-8B0F-41A9C8B283A8}
+	EndGlobalSection
+EndGlobal

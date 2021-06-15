@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>sirjohnk.ico</ApplicationIcon>
+    <Title>Awesome.XamarinHelpers.Countries</Title>
+    <Version>1.0.0-beta</Version>
+    <Authors>Johan Svensson</Authors>
+    <Copyright>© 2021 Johan Svensson All Rights Reserved</Copyright>
+    <Description>A awesome Xamarin helper project for handling country codes, names and flag images. Generates native flag images for target platform.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/SirJohnK/Awesome.XamarinHelpers</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SirJohnK/Awesome.XamarinHelpers</RepositoryUrl>
+    <PackageIcon>sirjohnk.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>dotnet,dotnet-standard,countries,flags,xamarin</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <ItemGroup>
+    <None Remove="CountryCodes.json" />
+    <None Remove="Resources\Flags\ad-flag.svg" />
+    <None Remove="Resources\Flags\ae-flag.svg" />
+    <None Remove="Resources\Flags\af-flag.svg" />
+    <None Remove="Resources\Flags\ag-flag.svg" />
+    <None Remove="Resources\Flags\ai-flag.svg" />
+    <None Remove="Resources\Flags\al-flag.svg" />
+    <None Remove="Resources\Flags\am-flag.svg" />
+    <None Remove="Resources\Flags\ao-flag.svg" />
+    <None Remove="Resources\Flags\aq-flag.svg" />
+    <None Remove="Resources\Flags\ar-flag.svg" />
+    <None Remove="Resources\Flags\as-flag.svg" />
+    <None Remove="Resources\Flags\at-flag.svg" />
+    <None Remove="Resources\Flags\au-flag.svg" />
+    <None Remove="Resources\Flags\aw-flag.svg" />
+    <None Remove="Resources\Flags\ax-flag.svg" />
+    <None Remove="Resources\Flags\az-flag.svg" />
+    <None Remove="Resources\Flags\ba-flag.svg" />
+    <None Remove="Resources\Flags\bb-flag.svg" />
+    <None Remove="Resources\Flags\bd-flag.svg" />
+    <None Remove="Resources\Flags\be-flag.svg" />
+    <None Remove="Resources\Flags\bf-flag.svg" />
+    <None Remove="Resources\Flags\bg-flag.svg" />
+    <None Remove="Resources\Flags\bh-flag.svg" />
+    <None Remove="Resources\Flags\bi-flag.svg" />
+    <None Remove="Resources\Flags\bj-flag.svg" />
+    <None Remove="Resources\Flags\bl-flag.svg" />
+    <None Remove="Resources\Flags\bm-flag.svg" />
+    <None Remove="Resources\Flags\bn-flag.svg" />
+    <None Remove="Resources\Flags\bo-flag.svg" />
+    <None Remove="Resources\Flags\bq-flag.svg" />
+    <None Remove="Resources\Flags\br-flag.svg" />
+    <None Remove="Resources\Flags\bs-flag.svg" />
+    <None Remove="Resources\Flags\bt-flag.svg" />
+    <None Remove="Resources\Flags\bv-flag.svg" />
+    <None Remove="Resources\Flags\bw-flag.svg" />
+    <None Remove="Resources\Flags\by-flag.svg" />
+    <None Remove="Resources\Flags\bz-flag.svg" />
+    <None Remove="Resources\Flags\ca-flag.svg" />
+    <None Remove="Resources\Flags\cc-flag.svg" />
+    <None Remove="Resources\Flags\cd-flag.svg" />
+    <None Remove="Resources\Flags\cf-flag.svg" />
+    <None Remove="Resources\Flags\cg-flag.svg" />
+    <None Remove="Resources\Flags\ch-flag.svg" />
+    <None Remove="Resources\Flags\ci-flag.svg" />
+    <None Remove="Resources\Flags\ck-flag.svg" />
+    <None Remove="Resources\Flags\cl-flag.svg" />
+    <None Remove="Resources\Flags\cm-flag.svg" />
+    <None Remove="Resources\Flags\cn-flag.svg" />
+    <None Remove="Resources\Flags\co-flag.svg" />
+    <None Remove="Resources\Flags\cr-flag.svg" />
+    <None Remove="Resources\Flags\cu-flag.svg" />
+    <None Remove="Resources\Flags\cv-flag.svg" />
+    <None Remove="Resources\Flags\cw-flag.svg" />
+    <None Remove="Resources\Flags\cx-flag.svg" />
+    <None Remove="Resources\Flags\cy-flag.svg" />
+    <None Remove="Resources\Flags\cz-flag.svg" />
+    <None Remove="Resources\Flags\de-flag.svg" />
+    <None Remove="Resources\Flags\dj-flag.svg" />
+    <None Remove="Resources\Flags\dk-flag.svg" />
+    <None Remove="Resources\Flags\dm-flag.svg" />
+    <None Remove="Resources\Flags\do-flag.svg" />
+    <None Remove="Resources\Flags\dz-flag.svg" />
+    <None Remove="Resources\Flags\ec-flag.svg" />
+    <None Remove="Resources\Flags\ee-flag.svg" />
+    <None Remove="Resources\Flags\eg-flag.svg" />
+    <None Remove="Resources\Flags\eh-flag.svg" />
+    <None Remove="Resources\Flags\er-flag.svg" />
+    <None Remove="Resources\Flags\es-flag.svg" />
+    <None Remove="Resources\Flags\et-flag.svg" />
+    <None Remove="Resources\Flags\eu-flag.svg" />
+    <None Remove="Resources\Flags\fi-flag.svg" />
+    <None Remove="Resources\Flags\fj-flag.svg" />
+    <None Remove="Resources\Flags\fk-flag.svg" />
+    <None Remove="Resources\Flags\fm-flag.svg" />
+    <None Remove="Resources\Flags\fo-flag.svg" />
+    <None Remove="Resources\Flags\fr-flag.svg" />
+    <None Remove="Resources\Flags\ga-flag.svg" />
+    <None Remove="Resources\Flags\gb-eng-flag.svg" />
+    <None Remove="Resources\Flags\gb-flag.svg" />
+    <None Remove="Resources\Flags\gb-nir-flag.svg" />
+    <None Remove="Resources\Flags\gb-sct-flag.svg" />
+    <None Remove="Resources\Flags\gb-wls-flag.svg" />
+    <None Remove="Resources\Flags\gd-flag.svg" />
+    <None Remove="Resources\Flags\ge-flag.svg" />
+    <None Remove="Resources\Flags\gf-flag.svg" />
+    <None Remove="Resources\Flags\gg-flag.svg" />
+    <None Remove="Resources\Flags\gh-flag.svg" />
+    <None Remove="Resources\Flags\gi-flag.svg" />
+    <None Remove="Resources\Flags\gl-flag.svg" />
+    <None Remove="Resources\Flags\gm-flag.svg" />
+    <None Remove="Resources\Flags\gn-flag.svg" />
+    <None Remove="Resources\Flags\gp-flag.svg" />
+    <None Remove="Resources\Flags\gq-flag.svg" />
+    <None Remove="Resources\Flags\gr-flag.svg" />
+    <None Remove="Resources\Flags\gs-flag.svg" />
+    <None Remove="Resources\Flags\gt-flag.svg" />
+    <None Remove="Resources\Flags\gu-flag.svg" />
+    <None Remove="Resources\Flags\gw-flag.svg" />
+    <None Remove="Resources\Flags\gy-flag.svg" />
+    <None Remove="Resources\Flags\hk-flag.svg" />
+    <None Remove="Resources\Flags\hm-flag.svg" />
+    <None Remove="Resources\Flags\hn-flag.svg" />
+    <None Remove="Resources\Flags\hr-flag.svg" />
+    <None Remove="Resources\Flags\ht-flag.svg" />
+    <None Remove="Resources\Flags\hu-flag.svg" />
+    <None Remove="Resources\Flags\id-flag.svg" />
+    <None Remove="Resources\Flags\ie-flag.svg" />
+    <None Remove="Resources\Flags\il-flag.svg" />
+    <None Remove="Resources\Flags\im-flag.svg" />
+    <None Remove="Resources\Flags\in-flag.svg" />
+    <None Remove="Resources\Flags\io-flag.svg" />
+    <None Remove="Resources\Flags\iq-flag.svg" />
+    <None Remove="Resources\Flags\ir-flag.svg" />
+    <None Remove="Resources\Flags\is-flag.svg" />
+    <None Remove="Resources\Flags\it-flag.svg" />
+    <None Remove="Resources\Flags\je-flag.svg" />
+    <None Remove="Resources\Flags\jm-flag.svg" />
+    <None Remove="Resources\Flags\jo-flag.svg" />
+    <None Remove="Resources\Flags\jp-flag.svg" />
+    <None Remove="Resources\Flags\ke-flag.svg" />
+    <None Remove="Resources\Flags\kg-flag.svg" />
+    <None Remove="Resources\Flags\kh-flag.svg" />
+    <None Remove="Resources\Flags\ki-flag.svg" />
+    <None Remove="Resources\Flags\km-flag.svg" />
+    <None Remove="Resources\Flags\kn-flag.svg" />
+    <None Remove="Resources\Flags\kp-flag.svg" />
+    <None Remove="Resources\Flags\kr-flag.svg" />
+    <None Remove="Resources\Flags\kw-flag.svg" />
+    <None Remove="Resources\Flags\ky-flag.svg" />
+    <None Remove="Resources\Flags\kz-flag.svg" />
+    <None Remove="Resources\Flags\la-flag.svg" />
+    <None Remove="Resources\Flags\lb-flag.svg" />
+    <None Remove="Resources\Flags\lc-flag.svg" />
+    <None Remove="Resources\Flags\li-flag.svg" />
+    <None Remove="Resources\Flags\lk-flag.svg" />
+    <None Remove="Resources\Flags\lr-flag.svg" />
+    <None Remove="Resources\Flags\ls-flag.svg" />
+    <None Remove="Resources\Flags\lt-flag.svg" />
+    <None Remove="Resources\Flags\lu-flag.svg" />
+    <None Remove="Resources\Flags\lv-flag.svg" />
+    <None Remove="Resources\Flags\ly-flag.svg" />
+    <None Remove="Resources\Flags\ma-flag.svg" />
+    <None Remove="Resources\Flags\mc-flag.svg" />
+    <None Remove="Resources\Flags\md-flag.svg" />
+    <None Remove="Resources\Flags\me-flag.svg" />
+    <None Remove="Resources\Flags\mf-flag.svg" />
+    <None Remove="Resources\Flags\mg-flag.svg" />
+    <None Remove="Resources\Flags\mh-flag.svg" />
+    <None Remove="Resources\Flags\mk-flag.svg" />
+    <None Remove="Resources\Flags\ml-flag.svg" />
+    <None Remove="Resources\Flags\mm-flag.svg" />
+    <None Remove="Resources\Flags\mn-flag.svg" />
+    <None Remove="Resources\Flags\mo-flag.svg" />
+    <None Remove="Resources\Flags\mp-flag.svg" />
+    <None Remove="Resources\Flags\mq-flag.svg" />
+    <None Remove="Resources\Flags\mr-flag.svg" />
+    <None Remove="Resources\Flags\ms-flag.svg" />
+    <None Remove="Resources\Flags\mt-flag.svg" />
+    <None Remove="Resources\Flags\mu-flag.svg" />
+    <None Remove="Resources\Flags\mv-flag.svg" />
+    <None Remove="Resources\Flags\mw-flag.svg" />
+    <None Remove="Resources\Flags\mx-flag.svg" />
+    <None Remove="Resources\Flags\my-flag.svg" />
+    <None Remove="Resources\Flags\mz-flag.svg" />
+    <None Remove="Resources\Flags\na-flag.svg" />
+    <None Remove="Resources\Flags\nc-flag.svg" />
+    <None Remove="Resources\Flags\ne-flag.svg" />
+    <None Remove="Resources\Flags\nf-flag.svg" />
+    <None Remove="Resources\Flags\ng-flag.svg" />
+    <None Remove="Resources\Flags\ni-flag.svg" />
+    <None Remove="Resources\Flags\nl-flag.svg" />
+    <None Remove="Resources\Flags\no-flag.svg" />
+    <None Remove="Resources\Flags\np-flag.svg" />
+    <None Remove="Resources\Flags\nr-flag.svg" />
+    <None Remove="Resources\Flags\nu-flag.svg" />
+    <None Remove="Resources\Flags\nz-flag.svg" />
+    <None Remove="Resources\Flags\om-flag.svg" />
+    <None Remove="Resources\Flags\pa-flag.svg" />
+    <None Remove="Resources\Flags\pe-flag.svg" />
+    <None Remove="Resources\Flags\pf-flag.svg" />
+    <None Remove="Resources\Flags\pg-flag.svg" />
+    <None Remove="Resources\Flags\ph-flag.svg" />
+    <None Remove="Resources\Flags\pk-flag.svg" />
+    <None Remove="Resources\Flags\pl-flag.svg" />
+    <None Remove="Resources\Flags\pm-flag.svg" />
+    <None Remove="Resources\Flags\pn-flag.svg" />
+    <None Remove="Resources\Flags\pr-flag.svg" />
+    <None Remove="Resources\Flags\ps-flag.svg" />
+    <None Remove="Resources\Flags\pt-flag.svg" />
+    <None Remove="Resources\Flags\pw-flag.svg" />
+    <None Remove="Resources\Flags\py-flag.svg" />
+    <None Remove="Resources\Flags\qa-flag.svg" />
+    <None Remove="Resources\Flags\re-flag.svg" />
+    <None Remove="Resources\Flags\ro-flag.svg" />
+    <None Remove="Resources\Flags\rs-flag.svg" />
+    <None Remove="Resources\Flags\ru-flag.svg" />
+    <None Remove="Resources\Flags\rw-flag.svg" />
+    <None Remove="Resources\Flags\sa-flag.svg" />
+    <None Remove="Resources\Flags\sb-flag.svg" />
+    <None Remove="Resources\Flags\sc-flag.svg" />
+    <None Remove="Resources\Flags\sd-flag.svg" />
+    <None Remove="Resources\Flags\se-flag.svg" />
+    <None Remove="Resources\Flags\sg-flag.svg" />
+    <None Remove="Resources\Flags\sh-flag.svg" />
+    <None Remove="Resources\Flags\si-flag.svg" />
+    <None Remove="Resources\Flags\sj-flag.svg" />
+    <None Remove="Resources\Flags\sk-flag.svg" />
+    <None Remove="Resources\Flags\sl-flag.svg" />
+    <None Remove="Resources\Flags\sm-flag.svg" />
+    <None Remove="Resources\Flags\sn-flag.svg" />
+    <None Remove="Resources\Flags\so-flag.svg" />
+    <None Remove="Resources\Flags\sr-flag.svg" />
+    <None Remove="Resources\Flags\ss-flag.svg" />
+    <None Remove="Resources\Flags\st-flag.svg" />
+    <None Remove="Resources\Flags\sv-flag.svg" />
+    <None Remove="Resources\Flags\sx-flag.svg" />
+    <None Remove="Resources\Flags\sy-flag.svg" />
+    <None Remove="Resources\Flags\sz-flag.svg" />
+    <None Remove="Resources\Flags\tc-flag.svg" />
+    <None Remove="Resources\Flags\td-flag.svg" />
+    <None Remove="Resources\Flags\tf-flag.svg" />
+    <None Remove="Resources\Flags\tg-flag.svg" />
+    <None Remove="Resources\Flags\th-flag.svg" />
+    <None Remove="Resources\Flags\tj-flag.svg" />
+    <None Remove="Resources\Flags\tk-flag.svg" />
+    <None Remove="Resources\Flags\tl-flag.svg" />
+    <None Remove="Resources\Flags\tm-flag.svg" />
+    <None Remove="Resources\Flags\tn-flag.svg" />
+    <None Remove="Resources\Flags\to-flag.svg" />
+    <None Remove="Resources\Flags\tr-flag.svg" />
+    <None Remove="Resources\Flags\tt-flag.svg" />
+    <None Remove="Resources\Flags\tv-flag.svg" />
+    <None Remove="Resources\Flags\tw-flag.svg" />
+    <None Remove="Resources\Flags\tz-flag.svg" />
+    <None Remove="Resources\Flags\ua-flag.svg" />
+    <None Remove="Resources\Flags\ug-flag.svg" />
+    <None Remove="Resources\Flags\um-flag.svg" />
+    <None Remove="Resources\Flags\us-flag.svg" />
+    <None Remove="Resources\Flags\uy-flag.svg" />
+    <None Remove="Resources\Flags\uz-flag.svg" />
+    <None Remove="Resources\Flags\va-flag.svg" />
+    <None Remove="Resources\Flags\vc-flag.svg" />
+    <None Remove="Resources\Flags\ve-flag.svg" />
+    <None Remove="Resources\Flags\vg-flag.svg" />
+    <None Remove="Resources\Flags\vi-flag.svg" />
+    <None Remove="Resources\Flags\vn-flag.svg" />
+    <None Remove="Resources\Flags\vu-flag.svg" />
+    <None Remove="Resources\Flags\wf-flag.svg" />
+    <None Remove="Resources\Flags\ws-flag.svg" />
+    <None Remove="Resources\Flags\xk-flag.svg" />
+    <None Remove="Resources\Flags\ye-flag.svg" />
+    <None Remove="Resources\Flags\yt-flag.svg" />
+    <None Remove="Resources\Flags\za-flag.svg" />
+    <None Remove="Resources\Flags\zm-flag.svg" />
+    <None Remove="Resources\Flags\zw-flag.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CountryCodes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="sirjohnk.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources\CountryNames.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CountryNames.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\CountryNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CountryNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MultilingualResources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <SharedImage Include="Resources\Flags\ad-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ae-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\af-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ag-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ai-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\al-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\am-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ao-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\aq-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ar-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\as-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\at-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\au-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\aw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ax-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\az-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ba-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bb-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bd-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\be-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bi-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bj-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bo-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bq-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\br-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bs-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\by-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\bz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ca-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cd-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ch-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ci-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ck-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\co-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cx-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cy-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\cz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\de-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\dj-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\dk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\dm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\do-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\dz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ec-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ee-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\eg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\eh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\er-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\es-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\et-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\eu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fi-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fj-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fo-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\fr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ga-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gb-eng-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gb-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gb-nir-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gb-sct-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gb-wls-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gd-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ge-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gi-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gp-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gq-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gs-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\gy-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\hk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\hm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\hn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\hr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ht-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\hu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\id-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ie-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\il-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\im-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\in-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\io-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\iq-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ir-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\is-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\it-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\je-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\jm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\jo-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\jp-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ke-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ki-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\km-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kp-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ky-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\kz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\la-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lb-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\li-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ls-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\lv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ly-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ma-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\md-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\me-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ml-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mo-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mp-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mq-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ms-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mx-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\my-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\mz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\na-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ne-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ng-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ni-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\no-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\np-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\nz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\om-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pa-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pe-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ph-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ps-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\pw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\py-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\qa-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\re-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ro-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\rs-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ru-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\rw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sa-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sb-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sd-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\se-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sh-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\si-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sj-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\so-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ss-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\st-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sx-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sy-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\sz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\td-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\th-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tj-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tl-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\to-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tr-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tv-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tw-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\tz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ua-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ug-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\um-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\us-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\uy-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\uz-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\va-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\vc-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ve-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\vg-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\vi-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\vn-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\vu-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\wf-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ws-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\xk-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\ye-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\yt-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\za-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\zm-flag.svg" BaseSize="40,40" />
+    <SharedImage Include="Resources\Flags\zw-flag.svg" BaseSize="40,40" />
+  </ItemGroup>
+</Project>

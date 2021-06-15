@@ -1,0 +1,1032 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="sv" original="AWESOME.XAMARINHELPERS.COUNTRIES/RESOURCES/COUNTRYNAMES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="AWESOME.XAMARINHELPERS.COUNTRIES/RESOURCES/COUNTRYNAMES.RESX" datatype="resx">
+        <trans-unit id="AD" translate="yes" xml:space="preserve">
+          <source>Andorra</source>
+          <target state="final" state-qualifier="tm-suggestion">Andorra</target>
+        </trans-unit>
+        <trans-unit id="AE" translate="yes" xml:space="preserve">
+          <source>United Arab Emirates</source>
+          <target state="final" state-qualifier="tm-suggestion">Förenade Arabemiraten</target>
+        </trans-unit>
+        <trans-unit id="AF" translate="yes" xml:space="preserve">
+          <source>Afghanistan</source>
+          <target state="final" state-qualifier="tm-suggestion">Afghanistan</target>
+        </trans-unit>
+        <trans-unit id="AG" translate="yes" xml:space="preserve">
+          <source>Antigua and Barbuda</source>
+          <target state="final" state-qualifier="tm-suggestion">Antigua och Barbuda</target>
+        </trans-unit>
+        <trans-unit id="AI" translate="yes" xml:space="preserve">
+          <source>Anguilla</source>
+          <target state="final" state-qualifier="tm-suggestion">Anguilla</target>
+        </trans-unit>
+        <trans-unit id="AL" translate="yes" xml:space="preserve">
+          <source>Albania</source>
+          <target state="final" state-qualifier="tm-suggestion">Albanien</target>
+        </trans-unit>
+        <trans-unit id="AM" translate="yes" xml:space="preserve">
+          <source>Armenia</source>
+          <target state="final" state-qualifier="tm-suggestion">Armenien</target>
+        </trans-unit>
+        <trans-unit id="AO" translate="yes" xml:space="preserve">
+          <source>Angola</source>
+          <target state="final" state-qualifier="tm-suggestion">Angola</target>
+        </trans-unit>
+        <trans-unit id="AQ" translate="yes" xml:space="preserve">
+          <source>Antarctica</source>
+          <target state="final" state-qualifier="tm-suggestion">Antarktis</target>
+        </trans-unit>
+        <trans-unit id="AR" translate="yes" xml:space="preserve">
+          <source>Argentina</source>
+          <target state="final" state-qualifier="tm-suggestion">Argentina</target>
+        </trans-unit>
+        <trans-unit id="AS" translate="yes" xml:space="preserve">
+          <source>American Samoa</source>
+          <target state="final" state-qualifier="tm-suggestion">Amerikanska Samoa</target>
+        </trans-unit>
+        <trans-unit id="AT" translate="yes" xml:space="preserve">
+          <source>Austria</source>
+          <target state="final" state-qualifier="tm-suggestion">Österrike</target>
+        </trans-unit>
+        <trans-unit id="AU" translate="yes" xml:space="preserve">
+          <source>Australia</source>
+          <target state="final" state-qualifier="tm-suggestion">Australien</target>
+        </trans-unit>
+        <trans-unit id="AW" translate="yes" xml:space="preserve">
+          <source>Aruba</source>
+          <target state="final" state-qualifier="tm-suggestion">Aruba</target>
+        </trans-unit>
+        <trans-unit id="AX" translate="yes" xml:space="preserve">
+          <source>Åland Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Åland</target>
+        </trans-unit>
+        <trans-unit id="AZ" translate="yes" xml:space="preserve">
+          <source>Azerbaijan</source>
+          <target state="final" state-qualifier="tm-suggestion">Azerbajdzjan</target>
+        </trans-unit>
+        <trans-unit id="BA" translate="yes" xml:space="preserve">
+          <source>Bosnia and Herzegovina</source>
+          <target state="final" state-qualifier="tm-suggestion">Bosnien och Hercegovina</target>
+        </trans-unit>
+        <trans-unit id="BB" translate="yes" xml:space="preserve">
+          <source>Barbados</source>
+          <target state="final" state-qualifier="tm-suggestion">Barbados</target>
+        </trans-unit>
+        <trans-unit id="BD" translate="yes" xml:space="preserve">
+          <source>Bangladesh</source>
+          <target state="final" state-qualifier="tm-suggestion">Bangladesh</target>
+        </trans-unit>
+        <trans-unit id="BE" translate="yes" xml:space="preserve">
+          <source>Belgium</source>
+          <target state="final" state-qualifier="tm-suggestion">Belgien</target>
+        </trans-unit>
+        <trans-unit id="BF" translate="yes" xml:space="preserve">
+          <source>Burkina Faso</source>
+          <target state="final" state-qualifier="tm-suggestion">Burkina Faso</target>
+        </trans-unit>
+        <trans-unit id="BG" translate="yes" xml:space="preserve">
+          <source>Bulgaria</source>
+          <target state="final" state-qualifier="tm-suggestion">Bulgarien</target>
+        </trans-unit>
+        <trans-unit id="BH" translate="yes" xml:space="preserve">
+          <source>Bahrain</source>
+          <target state="final" state-qualifier="tm-suggestion">Bahrain</target>
+        </trans-unit>
+        <trans-unit id="BI" translate="yes" xml:space="preserve">
+          <source>Burundi</source>
+          <target state="final" state-qualifier="tm-suggestion">Burundi</target>
+        </trans-unit>
+        <trans-unit id="BJ" translate="yes" xml:space="preserve">
+          <source>Benin</source>
+          <target state="final" state-qualifier="tm-suggestion">Benin</target>
+        </trans-unit>
+        <trans-unit id="BL" translate="yes" xml:space="preserve">
+          <source>Saint Barthélemy</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint Barthélemy</target>
+        </trans-unit>
+        <trans-unit id="BM" translate="yes" xml:space="preserve">
+          <source>Bermuda</source>
+          <target state="final" state-qualifier="tm-suggestion">Bermuda</target>
+        </trans-unit>
+        <trans-unit id="BN" translate="yes" xml:space="preserve">
+          <source>Brunei Darussalam</source>
+          <target state="final" state-qualifier="tm-suggestion">Brunei Darussalam</target>
+        </trans-unit>
+        <trans-unit id="BO" translate="yes" xml:space="preserve">
+          <source>Bolivia, Plurinational State of</source>
+          <target state="final" state-qualifier="tm-suggestion">Mångnationella staten Bolivia</target>
+        </trans-unit>
+        <trans-unit id="BQ" translate="yes" xml:space="preserve">
+          <source>Caribbean Netherlands</source>
+          <target state="final">Caribbean Netherlands</target>
+        </trans-unit>
+        <trans-unit id="BR" translate="yes" xml:space="preserve">
+          <source>Brazil</source>
+          <target state="final" state-qualifier="tm-suggestion">Brasilien</target>
+        </trans-unit>
+        <trans-unit id="BS" translate="yes" xml:space="preserve">
+          <source>Bahamas</source>
+          <target state="final" state-qualifier="tm-suggestion">Bahamas</target>
+        </trans-unit>
+        <trans-unit id="BT" translate="yes" xml:space="preserve">
+          <source>Bhutan</source>
+          <target state="final" state-qualifier="tm-suggestion">Bhutan</target>
+        </trans-unit>
+        <trans-unit id="BV" translate="yes" xml:space="preserve">
+          <source>Bouvet Island</source>
+          <target state="final" state-qualifier="tm-suggestion">Bouvetön</target>
+        </trans-unit>
+        <trans-unit id="BW" translate="yes" xml:space="preserve">
+          <source>Botswana</source>
+          <target state="final" state-qualifier="tm-suggestion">Botswana</target>
+        </trans-unit>
+        <trans-unit id="BY" translate="yes" xml:space="preserve">
+          <source>Belarus</source>
+          <target state="final" state-qualifier="tm-suggestion">Vitryssland</target>
+        </trans-unit>
+        <trans-unit id="BZ" translate="yes" xml:space="preserve">
+          <source>Belize</source>
+          <target state="final" state-qualifier="tm-suggestion">Belize</target>
+        </trans-unit>
+        <trans-unit id="CA" translate="yes" xml:space="preserve">
+          <source>Canada</source>
+          <target state="final" state-qualifier="tm-suggestion">Kanada</target>
+        </trans-unit>
+        <trans-unit id="CC" translate="yes" xml:space="preserve">
+          <source>Cocos (Keeling) Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Kokosöarna</target>
+        </trans-unit>
+        <trans-unit id="CD" translate="yes" xml:space="preserve">
+          <source>Congo, the Democratic Republic of the</source>
+          <target state="final" state-qualifier="tm-suggestion">Demokratiska republiken Kongo</target>
+        </trans-unit>
+        <trans-unit id="CF" translate="yes" xml:space="preserve">
+          <source>Central African Republic</source>
+          <target state="final" state-qualifier="tm-suggestion">Centralafrikanska republiken</target>
+        </trans-unit>
+        <trans-unit id="CG" translate="yes" xml:space="preserve">
+          <source>Republic of the Congo</source>
+          <target state="final" state-qualifier="tm-suggestion">Republiken Kongo</target>
+        </trans-unit>
+        <trans-unit id="CH" translate="yes" xml:space="preserve">
+          <source>Switzerland</source>
+          <target state="final" state-qualifier="tm-suggestion">Schweiz</target>
+        </trans-unit>
+        <trans-unit id="CI" translate="yes" xml:space="preserve">
+          <source>Côte d'Ivoire</source>
+          <target state="final" state-qualifier="tm-suggestion">Côte d'Ivoire</target>
+        </trans-unit>
+        <trans-unit id="CK" translate="yes" xml:space="preserve">
+          <source>Cook Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Cooköarna</target>
+        </trans-unit>
+        <trans-unit id="CL" translate="yes" xml:space="preserve">
+          <source>Chile</source>
+          <target state="final" state-qualifier="tm-suggestion">Chile</target>
+        </trans-unit>
+        <trans-unit id="CM" translate="yes" xml:space="preserve">
+          <source>Cameroon</source>
+          <target state="final" state-qualifier="tm-suggestion">Kamerun</target>
+        </trans-unit>
+        <trans-unit id="CN" translate="yes" xml:space="preserve">
+          <source>China (People's Republic of China)</source>
+          <target state="final">China (People's Republic of China)</target>
+        </trans-unit>
+        <trans-unit id="CO" translate="yes" xml:space="preserve">
+          <source>Colombia</source>
+          <target state="final" state-qualifier="tm-suggestion">Colombia</target>
+        </trans-unit>
+        <trans-unit id="CR" translate="yes" xml:space="preserve">
+          <source>Costa Rica</source>
+          <target state="final" state-qualifier="tm-suggestion">Costa Rica</target>
+        </trans-unit>
+        <trans-unit id="CU" translate="yes" xml:space="preserve">
+          <source>Cuba</source>
+          <target state="final" state-qualifier="tm-suggestion">Kuba</target>
+        </trans-unit>
+        <trans-unit id="CV" translate="yes" xml:space="preserve">
+          <source>Cape Verde</source>
+          <target state="final" state-qualifier="tm-suggestion">Kap Verde</target>
+        </trans-unit>
+        <trans-unit id="CW" translate="yes" xml:space="preserve">
+          <source>Curaçao</source>
+          <target state="final" state-qualifier="tm-suggestion">Curaçao</target>
+        </trans-unit>
+        <trans-unit id="CX" translate="yes" xml:space="preserve">
+          <source>Christmas Island</source>
+          <target state="final" state-qualifier="tm-suggestion">Julön</target>
+        </trans-unit>
+        <trans-unit id="CY" translate="yes" xml:space="preserve">
+          <source>Cyprus</source>
+          <target state="final" state-qualifier="tm-suggestion">Cypern</target>
+        </trans-unit>
+        <trans-unit id="CZ" translate="yes" xml:space="preserve">
+          <source>Czech Republic</source>
+          <target state="final" state-qualifier="tm-suggestion">Tjeckien</target>
+        </trans-unit>
+        <trans-unit id="DE" translate="yes" xml:space="preserve">
+          <source>Germany</source>
+          <target state="final" state-qualifier="tm-suggestion">Tyskland</target>
+        </trans-unit>
+        <trans-unit id="DJ" translate="yes" xml:space="preserve">
+          <source>Djibouti</source>
+          <target state="final" state-qualifier="tm-suggestion">Djibouti</target>
+        </trans-unit>
+        <trans-unit id="DK" translate="yes" xml:space="preserve">
+          <source>Denmark</source>
+          <target state="final" state-qualifier="tm-suggestion">Danmark</target>
+        </trans-unit>
+        <trans-unit id="DM" translate="yes" xml:space="preserve">
+          <source>Dominica</source>
+          <target state="final" state-qualifier="tm-suggestion">Dominica</target>
+        </trans-unit>
+        <trans-unit id="DO" translate="yes" xml:space="preserve">
+          <source>Dominican Republic</source>
+          <target state="final" state-qualifier="tm-suggestion">Dominikanska republiken</target>
+        </trans-unit>
+        <trans-unit id="DZ" translate="yes" xml:space="preserve">
+          <source>Algeria</source>
+          <target state="final" state-qualifier="tm-suggestion">Algeriet</target>
+        </trans-unit>
+        <trans-unit id="EC" translate="yes" xml:space="preserve">
+          <source>Ecuador</source>
+          <target state="final" state-qualifier="tm-suggestion">Ecuador</target>
+        </trans-unit>
+        <trans-unit id="EE" translate="yes" xml:space="preserve">
+          <source>Estonia</source>
+          <target state="final" state-qualifier="tm-suggestion">Estland</target>
+        </trans-unit>
+        <trans-unit id="EG" translate="yes" xml:space="preserve">
+          <source>Egypt</source>
+          <target state="final" state-qualifier="tm-suggestion">Egypten</target>
+        </trans-unit>
+        <trans-unit id="EH" translate="yes" xml:space="preserve">
+          <source>Western Sahara</source>
+          <target state="final" state-qualifier="tm-suggestion">Västsahara</target>
+        </trans-unit>
+        <trans-unit id="ER" translate="yes" xml:space="preserve">
+          <source>Eritrea</source>
+          <target state="final" state-qualifier="tm-suggestion">Eritrea</target>
+        </trans-unit>
+        <trans-unit id="ES" translate="yes" xml:space="preserve">
+          <source>Spain</source>
+          <target state="final" state-qualifier="tm-suggestion">Spanien</target>
+        </trans-unit>
+        <trans-unit id="ET" translate="yes" xml:space="preserve">
+          <source>Ethiopia</source>
+          <target state="final" state-qualifier="tm-suggestion">Etiopien</target>
+        </trans-unit>
+        <trans-unit id="EU" translate="yes" xml:space="preserve">
+          <source>Europe</source>
+          <target state="final" state-qualifier="tm-suggestion">Europa</target>
+        </trans-unit>
+        <trans-unit id="FI" translate="yes" xml:space="preserve">
+          <source>Finland</source>
+          <target state="final" state-qualifier="tm-suggestion">Finland</target>
+        </trans-unit>
+        <trans-unit id="FJ" translate="yes" xml:space="preserve">
+          <source>Fiji</source>
+          <target state="final" state-qualifier="tm-suggestion">Fiji</target>
+        </trans-unit>
+        <trans-unit id="FK" translate="yes" xml:space="preserve">
+          <source>Falkland Islands (Malvinas)</source>
+          <target state="final" state-qualifier="tm-suggestion">Falklandsöarna (Malvinasöarna)</target>
+        </trans-unit>
+        <trans-unit id="FM" translate="yes" xml:space="preserve">
+          <source>Micronesia, Federated States of</source>
+          <target state="final" state-qualifier="tm-suggestion">Mikronesien</target>
+        </trans-unit>
+        <trans-unit id="FO" translate="yes" xml:space="preserve">
+          <source>Faroe Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Färöarna</target>
+        </trans-unit>
+        <trans-unit id="FR" translate="yes" xml:space="preserve">
+          <source>France</source>
+          <target state="final" state-qualifier="tm-suggestion">Frankrike</target>
+        </trans-unit>
+        <trans-unit id="GA" translate="yes" xml:space="preserve">
+          <source>Gabon</source>
+          <target state="final" state-qualifier="tm-suggestion">Gabon</target>
+        </trans-unit>
+        <trans-unit id="GB" translate="yes" xml:space="preserve">
+          <source>United Kingdom</source>
+          <target state="final" state-qualifier="tm-suggestion">Storbritannien</target>
+        </trans-unit>
+        <trans-unit id="GB-ENG" translate="yes" xml:space="preserve">
+          <source>England</source>
+          <target state="final" state-qualifier="tm-suggestion">Storbrittanien</target>
+        </trans-unit>
+        <trans-unit id="GB-NIR" translate="yes" xml:space="preserve">
+          <source>Northern Ireland</source>
+          <target state="final" state-qualifier="tm-suggestion">Nordirland</target>
+        </trans-unit>
+        <trans-unit id="GB-SCT" translate="yes" xml:space="preserve">
+          <source>Scotland</source>
+          <target state="final" state-qualifier="tm-suggestion">Södra kanten och tunåsen</target>
+        </trans-unit>
+        <trans-unit id="GB-WLS" translate="yes" xml:space="preserve">
+          <source>Wales</source>
+          <target state="final" state-qualifier="tm-suggestion">Wales</target>
+        </trans-unit>
+        <trans-unit id="GD" translate="yes" xml:space="preserve">
+          <source>Grenada</source>
+          <target state="final" state-qualifier="tm-suggestion">Grenada</target>
+        </trans-unit>
+        <trans-unit id="GE" translate="yes" xml:space="preserve">
+          <source>Georgia</source>
+          <target state="final" state-qualifier="tm-suggestion">Georgien</target>
+        </trans-unit>
+        <trans-unit id="GF" translate="yes" xml:space="preserve">
+          <source>French Guiana</source>
+          <target state="final" state-qualifier="tm-suggestion">Franska Guyana</target>
+        </trans-unit>
+        <trans-unit id="GG" translate="yes" xml:space="preserve">
+          <source>Guernsey</source>
+          <target state="final" state-qualifier="tm-suggestion">Guernsey</target>
+        </trans-unit>
+        <trans-unit id="GH" translate="yes" xml:space="preserve">
+          <source>Ghana</source>
+          <target state="final" state-qualifier="tm-suggestion">Ghana</target>
+        </trans-unit>
+        <trans-unit id="GI" translate="yes" xml:space="preserve">
+          <source>Gibraltar</source>
+          <target state="final" state-qualifier="tm-suggestion">Gibraltar</target>
+        </trans-unit>
+        <trans-unit id="GL" translate="yes" xml:space="preserve">
+          <source>Greenland</source>
+          <target state="final" state-qualifier="tm-suggestion">Grönland</target>
+        </trans-unit>
+        <trans-unit id="GM" translate="yes" xml:space="preserve">
+          <source>Gambia</source>
+          <target state="final" state-qualifier="tm-suggestion">Gambia</target>
+        </trans-unit>
+        <trans-unit id="GN" translate="yes" xml:space="preserve">
+          <source>Guinea</source>
+          <target state="final" state-qualifier="tm-suggestion">Guinea</target>
+        </trans-unit>
+        <trans-unit id="GP" translate="yes" xml:space="preserve">
+          <source>Guadeloupe</source>
+          <target state="final" state-qualifier="tm-suggestion">Guadeloupe</target>
+        </trans-unit>
+        <trans-unit id="GQ" translate="yes" xml:space="preserve">
+          <source>Equatorial Guinea</source>
+          <target state="final" state-qualifier="tm-suggestion">Ekvatorialguinea</target>
+        </trans-unit>
+        <trans-unit id="GR" translate="yes" xml:space="preserve">
+          <source>Greece</source>
+          <target state="final" state-qualifier="tm-suggestion">Grekland</target>
+        </trans-unit>
+        <trans-unit id="GS" translate="yes" xml:space="preserve">
+          <source>South Georgia and the South Sandwich Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Sydgeorgien och Sydsandwichöarna</target>
+        </trans-unit>
+        <trans-unit id="GT" translate="yes" xml:space="preserve">
+          <source>Guatemala</source>
+          <target state="final" state-qualifier="tm-suggestion">Guatemala</target>
+        </trans-unit>
+        <trans-unit id="GU" translate="yes" xml:space="preserve">
+          <source>Guam</source>
+          <target state="final" state-qualifier="tm-suggestion">Guam</target>
+        </trans-unit>
+        <trans-unit id="GW" translate="yes" xml:space="preserve">
+          <source>Guinea-Bissau</source>
+          <target state="final" state-qualifier="tm-suggestion">Guinea-Bissau</target>
+        </trans-unit>
+        <trans-unit id="GY" translate="yes" xml:space="preserve">
+          <source>Guyana</source>
+          <target state="final" state-qualifier="tm-suggestion">Guyana</target>
+        </trans-unit>
+        <trans-unit id="HK" translate="yes" xml:space="preserve">
+          <source>Hong Kong</source>
+          <target state="final" state-qualifier="tm-suggestion">Hongkong</target>
+        </trans-unit>
+        <trans-unit id="HM" translate="yes" xml:space="preserve">
+          <source>Heard Island and McDonald Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Heardön och McDonaldöarna</target>
+        </trans-unit>
+        <trans-unit id="HN" translate="yes" xml:space="preserve">
+          <source>Honduras</source>
+          <target state="final" state-qualifier="tm-suggestion">Honduras</target>
+        </trans-unit>
+        <trans-unit id="HR" translate="yes" xml:space="preserve">
+          <source>Croatia</source>
+          <target state="final" state-qualifier="tm-suggestion">Kroatien</target>
+        </trans-unit>
+        <trans-unit id="HT" translate="yes" xml:space="preserve">
+          <source>Haiti</source>
+          <target state="final" state-qualifier="tm-suggestion">Haiti</target>
+        </trans-unit>
+        <trans-unit id="HU" translate="yes" xml:space="preserve">
+          <source>Hungary</source>
+          <target state="final" state-qualifier="tm-suggestion">Ungern</target>
+        </trans-unit>
+        <trans-unit id="ID" translate="yes" xml:space="preserve">
+          <source>Indonesia</source>
+          <target state="final" state-qualifier="tm-suggestion">Indonesien</target>
+        </trans-unit>
+        <trans-unit id="IE" translate="yes" xml:space="preserve">
+          <source>Ireland</source>
+          <target state="final" state-qualifier="tm-suggestion">Irland</target>
+        </trans-unit>
+        <trans-unit id="IL" translate="yes" xml:space="preserve">
+          <source>Israel</source>
+          <target state="final" state-qualifier="tm-suggestion">Israel</target>
+        </trans-unit>
+        <trans-unit id="IM" translate="yes" xml:space="preserve">
+          <source>Isle of Man</source>
+          <target state="final" state-qualifier="tm-suggestion">Isle of Man</target>
+        </trans-unit>
+        <trans-unit id="IN" translate="yes" xml:space="preserve">
+          <source>India</source>
+          <target state="final" state-qualifier="tm-suggestion">Indien</target>
+        </trans-unit>
+        <trans-unit id="IO" translate="yes" xml:space="preserve">
+          <source>British Indian Ocean Territory</source>
+          <target state="final" state-qualifier="tm-suggestion">Brittiska territoriet i Indiska Oceanen</target>
+        </trans-unit>
+        <trans-unit id="IQ" translate="yes" xml:space="preserve">
+          <source>Iraq</source>
+          <target state="final" state-qualifier="tm-suggestion">Irak</target>
+        </trans-unit>
+        <trans-unit id="IR" translate="yes" xml:space="preserve">
+          <source>Iran, Islamic Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Islamiska republiken Iran</target>
+        </trans-unit>
+        <trans-unit id="IS" translate="yes" xml:space="preserve">
+          <source>Iceland</source>
+          <target state="final" state-qualifier="tm-suggestion">Island</target>
+        </trans-unit>
+        <trans-unit id="IT" translate="yes" xml:space="preserve">
+          <source>Italy</source>
+          <target state="final" state-qualifier="tm-suggestion">Italien</target>
+        </trans-unit>
+        <trans-unit id="JE" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="final" state-qualifier="tm-suggestion">Jersey</target>
+        </trans-unit>
+        <trans-unit id="JM" translate="yes" xml:space="preserve">
+          <source>Jamaica</source>
+          <target state="final" state-qualifier="tm-suggestion">Jamaica</target>
+        </trans-unit>
+        <trans-unit id="JO" translate="yes" xml:space="preserve">
+          <source>Jordan</source>
+          <target state="final" state-qualifier="tm-suggestion">Jordanien</target>
+        </trans-unit>
+        <trans-unit id="JP" translate="yes" xml:space="preserve">
+          <source>Japan</source>
+          <target state="final" state-qualifier="tm-suggestion">Japan</target>
+        </trans-unit>
+        <trans-unit id="KE" translate="yes" xml:space="preserve">
+          <source>Kenya</source>
+          <target state="final" state-qualifier="tm-suggestion">Kenya</target>
+        </trans-unit>
+        <trans-unit id="KG" translate="yes" xml:space="preserve">
+          <source>Kyrgyzstan</source>
+          <target state="final" state-qualifier="tm-suggestion">Kirgizistan</target>
+        </trans-unit>
+        <trans-unit id="KH" translate="yes" xml:space="preserve">
+          <source>Cambodia</source>
+          <target state="final" state-qualifier="tm-suggestion">Kambodja</target>
+        </trans-unit>
+        <trans-unit id="KI" translate="yes" xml:space="preserve">
+          <source>Kiribati</source>
+          <target state="final" state-qualifier="tm-suggestion">Kiribati</target>
+        </trans-unit>
+        <trans-unit id="KM" translate="yes" xml:space="preserve">
+          <source>Comoros</source>
+          <target state="final" state-qualifier="tm-suggestion">Komorerna</target>
+        </trans-unit>
+        <trans-unit id="KN" translate="yes" xml:space="preserve">
+          <source>Saint Kitts and Nevis</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint Kitts och Nevis</target>
+        </trans-unit>
+        <trans-unit id="KP" translate="yes" xml:space="preserve">
+          <source>Korea, Democratic People's Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Nordkorea</target>
+        </trans-unit>
+        <trans-unit id="KR" translate="yes" xml:space="preserve">
+          <source>Korea, Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Sydkorea</target>
+        </trans-unit>
+        <trans-unit id="KW" translate="yes" xml:space="preserve">
+          <source>Kuwait</source>
+          <target state="final" state-qualifier="tm-suggestion">Kuwait</target>
+        </trans-unit>
+        <trans-unit id="KY" translate="yes" xml:space="preserve">
+          <source>Cayman Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Caymanöarna</target>
+        </trans-unit>
+        <trans-unit id="KZ" translate="yes" xml:space="preserve">
+          <source>Kazakhstan</source>
+          <target state="final" state-qualifier="tm-suggestion">Kazakstan</target>
+        </trans-unit>
+        <trans-unit id="LA" translate="yes" xml:space="preserve">
+          <source>Laos (Lao People's Democratic Republic)</source>
+          <target state="final" state-qualifier="tm-suggestion">Laos|Laos|لاوس|Laos|Лаос|Лаос|Laos|Laos|Laos|Laos|Λάος|Laos|Laos|Laos|لائوس|Laos|Laos|Laos|Laos|Laos|לאוס|लाओस|Laos|Laosz|Laos|Laos|ラオス|Лаос|라오스|Laosas|Laosa|Лаос|Laos|Laos|Laos|Laos|Laos|Laos|Laos|Лаосская Народно-Демократическая Республика|Laos|Laos|Laosi|Laos|Laos|ลาว|Laos|Лаос|Laos|Lào|老挝|寮國</target>
+        </trans-unit>
+        <trans-unit id="LB" translate="yes" xml:space="preserve">
+          <source>Lebanon</source>
+          <target state="final" state-qualifier="tm-suggestion">Libanon</target>
+        </trans-unit>
+        <trans-unit id="LC" translate="yes" xml:space="preserve">
+          <source>Saint Lucia</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint Lucia</target>
+        </trans-unit>
+        <trans-unit id="LI" translate="yes" xml:space="preserve">
+          <source>Liechtenstein</source>
+          <target state="final" state-qualifier="tm-suggestion">Liechtenstein</target>
+        </trans-unit>
+        <trans-unit id="LK" translate="yes" xml:space="preserve">
+          <source>Sri Lanka</source>
+          <target state="final" state-qualifier="tm-suggestion">Sri Lanka</target>
+        </trans-unit>
+        <trans-unit id="LR" translate="yes" xml:space="preserve">
+          <source>Liberia</source>
+          <target state="final" state-qualifier="tm-suggestion">Liberia</target>
+        </trans-unit>
+        <trans-unit id="LS" translate="yes" xml:space="preserve">
+          <source>Lesotho</source>
+          <target state="final" state-qualifier="tm-suggestion">Lesotho</target>
+        </trans-unit>
+        <trans-unit id="LT" translate="yes" xml:space="preserve">
+          <source>Lithuania</source>
+          <target state="final" state-qualifier="tm-suggestion">Litauen</target>
+        </trans-unit>
+        <trans-unit id="LU" translate="yes" xml:space="preserve">
+          <source>Luxembourg</source>
+          <target state="final" state-qualifier="tm-suggestion">Luxemburg</target>
+        </trans-unit>
+        <trans-unit id="LV" translate="yes" xml:space="preserve">
+          <source>Latvia</source>
+          <target state="final" state-qualifier="tm-suggestion">Lettland</target>
+        </trans-unit>
+        <trans-unit id="LY" translate="yes" xml:space="preserve">
+          <source>Libya</source>
+          <target state="final" state-qualifier="tm-suggestion">Libyen</target>
+        </trans-unit>
+        <trans-unit id="MA" translate="yes" xml:space="preserve">
+          <source>Morocco</source>
+          <target state="final" state-qualifier="tm-suggestion">Marocko</target>
+        </trans-unit>
+        <trans-unit id="MC" translate="yes" xml:space="preserve">
+          <source>Monaco</source>
+          <target state="final" state-qualifier="tm-suggestion">Monaco</target>
+        </trans-unit>
+        <trans-unit id="MD" translate="yes" xml:space="preserve">
+          <source>Moldova, Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Moldavien</target>
+        </trans-unit>
+        <trans-unit id="ME" translate="yes" xml:space="preserve">
+          <source>Montenegro</source>
+          <target state="final" state-qualifier="tm-suggestion">Montenegro</target>
+        </trans-unit>
+        <trans-unit id="MF" translate="yes" xml:space="preserve">
+          <source>Saint Martin</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint-Martin</target>
+        </trans-unit>
+        <trans-unit id="MG" translate="yes" xml:space="preserve">
+          <source>Madagascar</source>
+          <target state="final" state-qualifier="tm-suggestion">Madagaskar</target>
+        </trans-unit>
+        <trans-unit id="MH" translate="yes" xml:space="preserve">
+          <source>Marshall Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Marshallöarna</target>
+        </trans-unit>
+        <trans-unit id="MK" translate="yes" xml:space="preserve">
+          <source>Macedonia, the former Yugoslav Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Makedonien, f.d. jugoslaviska republiken Makedonien</target>
+        </trans-unit>
+        <trans-unit id="ML" translate="yes" xml:space="preserve">
+          <source>Mali</source>
+          <target state="final" state-qualifier="tm-suggestion">Mali</target>
+        </trans-unit>
+        <trans-unit id="MM" translate="yes" xml:space="preserve">
+          <source>Myanmar</source>
+          <target state="final" state-qualifier="tm-suggestion">Myanmar</target>
+        </trans-unit>
+        <trans-unit id="MN" translate="yes" xml:space="preserve">
+          <source>Mongolia</source>
+          <target state="final" state-qualifier="tm-suggestion">Mongoliet</target>
+        </trans-unit>
+        <trans-unit id="MO" translate="yes" xml:space="preserve">
+          <source>Macao</source>
+          <target state="final" state-qualifier="tm-suggestion">Macao</target>
+        </trans-unit>
+        <trans-unit id="MP" translate="yes" xml:space="preserve">
+          <source>Northern Mariana Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Nordmarianerna</target>
+        </trans-unit>
+        <trans-unit id="MQ" translate="yes" xml:space="preserve">
+          <source>Martinique</source>
+          <target state="final" state-qualifier="tm-suggestion">Martinique</target>
+        </trans-unit>
+        <trans-unit id="MR" translate="yes" xml:space="preserve">
+          <source>Mauritania</source>
+          <target state="final" state-qualifier="tm-suggestion">Mauretanien</target>
+        </trans-unit>
+        <trans-unit id="MS" translate="yes" xml:space="preserve">
+          <source>Montserrat</source>
+          <target state="final" state-qualifier="tm-suggestion">Montserrat</target>
+        </trans-unit>
+        <trans-unit id="MT" translate="yes" xml:space="preserve">
+          <source>Malta</source>
+          <target state="final" state-qualifier="tm-suggestion">Malta</target>
+        </trans-unit>
+        <trans-unit id="MU" translate="yes" xml:space="preserve">
+          <source>Mauritius</source>
+          <target state="final" state-qualifier="tm-suggestion">Mauritius</target>
+        </trans-unit>
+        <trans-unit id="MV" translate="yes" xml:space="preserve">
+          <source>Maldives</source>
+          <target state="final" state-qualifier="tm-suggestion">Maldiverna</target>
+        </trans-unit>
+        <trans-unit id="MW" translate="yes" xml:space="preserve">
+          <source>Malawi</source>
+          <target state="final" state-qualifier="tm-suggestion">Malawi</target>
+        </trans-unit>
+        <trans-unit id="MX" translate="yes" xml:space="preserve">
+          <source>Mexico</source>
+          <target state="final" state-qualifier="tm-suggestion">Mexiko</target>
+        </trans-unit>
+        <trans-unit id="MY" translate="yes" xml:space="preserve">
+          <source>Malaysia</source>
+          <target state="final" state-qualifier="tm-suggestion">Malaysia</target>
+        </trans-unit>
+        <trans-unit id="MZ" translate="yes" xml:space="preserve">
+          <source>Mozambique</source>
+          <target state="final" state-qualifier="tm-suggestion">Moçambique</target>
+        </trans-unit>
+        <trans-unit id="NA" translate="yes" xml:space="preserve">
+          <source>Namibia</source>
+          <target state="final" state-qualifier="tm-suggestion">Namibia</target>
+        </trans-unit>
+        <trans-unit id="NC" translate="yes" xml:space="preserve">
+          <source>New Caledonia</source>
+          <target state="final" state-qualifier="tm-suggestion">Nya Kaledonien</target>
+        </trans-unit>
+        <trans-unit id="NE" translate="yes" xml:space="preserve">
+          <source>Niger</source>
+          <target state="final" state-qualifier="tm-suggestion">Niger</target>
+        </trans-unit>
+        <trans-unit id="NF" translate="yes" xml:space="preserve">
+          <source>Norfolk Island</source>
+          <target state="final" state-qualifier="tm-suggestion">Norfolkön</target>
+        </trans-unit>
+        <trans-unit id="NG" translate="yes" xml:space="preserve">
+          <source>Nigeria</source>
+          <target state="final" state-qualifier="tm-suggestion">Nigeria</target>
+        </trans-unit>
+        <trans-unit id="NI" translate="yes" xml:space="preserve">
+          <source>Nicaragua</source>
+          <target state="final" state-qualifier="tm-suggestion">Nicaragua</target>
+        </trans-unit>
+        <trans-unit id="NL" translate="yes" xml:space="preserve">
+          <source>Netherlands</source>
+          <target state="final" state-qualifier="tm-suggestion">Nederländerna</target>
+        </trans-unit>
+        <trans-unit id="NO" translate="yes" xml:space="preserve">
+          <source>Norway</source>
+          <target state="final" state-qualifier="tm-suggestion">Norge</target>
+        </trans-unit>
+        <trans-unit id="NP" translate="yes" xml:space="preserve">
+          <source>Nepal</source>
+          <target state="final" state-qualifier="tm-suggestion">Nepal</target>
+        </trans-unit>
+        <trans-unit id="NR" translate="yes" xml:space="preserve">
+          <source>Nauru</source>
+          <target state="final" state-qualifier="tm-suggestion">Nauru</target>
+        </trans-unit>
+        <trans-unit id="NU" translate="yes" xml:space="preserve">
+          <source>Niue</source>
+          <target state="final" state-qualifier="tm-suggestion">Niue</target>
+        </trans-unit>
+        <trans-unit id="NZ" translate="yes" xml:space="preserve">
+          <source>New Zealand</source>
+          <target state="final" state-qualifier="tm-suggestion">Nya Zeeland</target>
+        </trans-unit>
+        <trans-unit id="OM" translate="yes" xml:space="preserve">
+          <source>Oman</source>
+          <target state="final" state-qualifier="tm-suggestion">Oman</target>
+        </trans-unit>
+        <trans-unit id="PA" translate="yes" xml:space="preserve">
+          <source>Panama</source>
+          <target state="final" state-qualifier="tm-suggestion">Panama</target>
+        </trans-unit>
+        <trans-unit id="PE" translate="yes" xml:space="preserve">
+          <source>Peru</source>
+          <target state="final" state-qualifier="tm-suggestion">Peru</target>
+        </trans-unit>
+        <trans-unit id="PF" translate="yes" xml:space="preserve">
+          <source>French Polynesia</source>
+          <target state="final" state-qualifier="tm-suggestion">Franska Polynesien</target>
+        </trans-unit>
+        <trans-unit id="PG" translate="yes" xml:space="preserve">
+          <source>Papua New Guinea</source>
+          <target state="final" state-qualifier="tm-suggestion">Papua Nya Guinea</target>
+        </trans-unit>
+        <trans-unit id="PH" translate="yes" xml:space="preserve">
+          <source>Philippines</source>
+          <target state="final" state-qualifier="tm-suggestion">Filippinerna</target>
+        </trans-unit>
+        <trans-unit id="PK" translate="yes" xml:space="preserve">
+          <source>Pakistan</source>
+          <target state="final" state-qualifier="tm-suggestion">Pakistan</target>
+        </trans-unit>
+        <trans-unit id="PL" translate="yes" xml:space="preserve">
+          <source>Poland</source>
+          <target state="final" state-qualifier="tm-suggestion">Polen</target>
+        </trans-unit>
+        <trans-unit id="PM" translate="yes" xml:space="preserve">
+          <source>Saint Pierre and Miquelon</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint Pierre och Miquelon</target>
+        </trans-unit>
+        <trans-unit id="PN" translate="yes" xml:space="preserve">
+          <source>Pitcairn</source>
+          <target state="final" state-qualifier="tm-suggestion">Pitcairn</target>
+        </trans-unit>
+        <trans-unit id="PR" translate="yes" xml:space="preserve">
+          <source>Puerto Rico</source>
+          <target state="final" state-qualifier="tm-suggestion">Puerto Rico</target>
+        </trans-unit>
+        <trans-unit id="PS" translate="yes" xml:space="preserve">
+          <source>Palestine</source>
+          <target state="final">Palestine</target>
+        </trans-unit>
+        <trans-unit id="PT" translate="yes" xml:space="preserve">
+          <source>Portugal</source>
+          <target state="final" state-qualifier="tm-suggestion">Portugal</target>
+        </trans-unit>
+        <trans-unit id="PW" translate="yes" xml:space="preserve">
+          <source>Palau</source>
+          <target state="final" state-qualifier="tm-suggestion">Palau</target>
+        </trans-unit>
+        <trans-unit id="PY" translate="yes" xml:space="preserve">
+          <source>Paraguay</source>
+          <target state="final" state-qualifier="tm-suggestion">Paraguay</target>
+        </trans-unit>
+        <trans-unit id="QA" translate="yes" xml:space="preserve">
+          <source>Qatar</source>
+          <target state="final" state-qualifier="tm-suggestion">Qatar</target>
+        </trans-unit>
+        <trans-unit id="RE" translate="yes" xml:space="preserve">
+          <source>Réunion</source>
+          <target state="final" state-qualifier="tm-suggestion">Réunion</target>
+        </trans-unit>
+        <trans-unit id="RO" translate="yes" xml:space="preserve">
+          <source>Romania</source>
+          <target state="final" state-qualifier="tm-suggestion">Rumänien</target>
+        </trans-unit>
+        <trans-unit id="RS" translate="yes" xml:space="preserve">
+          <source>Serbia</source>
+          <target state="final" state-qualifier="tm-suggestion">Serbien</target>
+        </trans-unit>
+        <trans-unit id="RU" translate="yes" xml:space="preserve">
+          <source>Russian Federation</source>
+          <target state="final" state-qualifier="tm-suggestion">Ryska federationen</target>
+        </trans-unit>
+        <trans-unit id="RW" translate="yes" xml:space="preserve">
+          <source>Rwanda</source>
+          <target state="final" state-qualifier="tm-suggestion">Rwanda</target>
+        </trans-unit>
+        <trans-unit id="SA" translate="yes" xml:space="preserve">
+          <source>Saudi Arabia</source>
+          <target state="final" state-qualifier="tm-suggestion">Saudiarabien</target>
+        </trans-unit>
+        <trans-unit id="SB" translate="yes" xml:space="preserve">
+          <source>Solomon Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Salomonöarna</target>
+        </trans-unit>
+        <trans-unit id="SC" translate="yes" xml:space="preserve">
+          <source>Seychelles</source>
+          <target state="final" state-qualifier="tm-suggestion">Seychellerna</target>
+        </trans-unit>
+        <trans-unit id="SD" translate="yes" xml:space="preserve">
+          <source>Sudan</source>
+          <target state="final" state-qualifier="tm-suggestion">Sudan</target>
+        </trans-unit>
+        <trans-unit id="SE" translate="yes" xml:space="preserve">
+          <source>Sweden</source>
+          <target state="final" state-qualifier="tm-suggestion">Sverige</target>
+        </trans-unit>
+        <trans-unit id="SG" translate="yes" xml:space="preserve">
+          <source>Singapore</source>
+          <target state="final" state-qualifier="tm-suggestion">Singapore</target>
+        </trans-unit>
+        <trans-unit id="SH" translate="yes" xml:space="preserve">
+          <source>Saint Helena, Ascension and Tristan da Cunha</source>
+          <target state="final" state-qualifier="tm-suggestion">Sankta Helena, Ascension och Tristan da Cunha</target>
+        </trans-unit>
+        <trans-unit id="SI" translate="yes" xml:space="preserve">
+          <source>Slovenia</source>
+          <target state="final" state-qualifier="tm-suggestion">Slovenien</target>
+        </trans-unit>
+        <trans-unit id="SJ" translate="yes" xml:space="preserve">
+          <source>Svalbard and Jan Mayen Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Svalbard och Jan Mayen</target>
+        </trans-unit>
+        <trans-unit id="SK" translate="yes" xml:space="preserve">
+          <source>Slovakia</source>
+          <target state="final" state-qualifier="tm-suggestion">Slovakien</target>
+        </trans-unit>
+        <trans-unit id="SL" translate="yes" xml:space="preserve">
+          <source>Sierra Leone</source>
+          <target state="final" state-qualifier="tm-suggestion">Sierra Leone</target>
+        </trans-unit>
+        <trans-unit id="SM" translate="yes" xml:space="preserve">
+          <source>San Marino</source>
+          <target state="final" state-qualifier="tm-suggestion">San Marino</target>
+        </trans-unit>
+        <trans-unit id="SN" translate="yes" xml:space="preserve">
+          <source>Senegal</source>
+          <target state="final" state-qualifier="tm-suggestion">Senegal</target>
+        </trans-unit>
+        <trans-unit id="SO" translate="yes" xml:space="preserve">
+          <source>Somalia</source>
+          <target state="final" state-qualifier="tm-suggestion">Somalia</target>
+        </trans-unit>
+        <trans-unit id="SR" translate="yes" xml:space="preserve">
+          <source>Suriname</source>
+          <target state="final" state-qualifier="tm-suggestion">Surinam</target>
+        </trans-unit>
+        <trans-unit id="SS" translate="yes" xml:space="preserve">
+          <source>South Sudan</source>
+          <target state="final" state-qualifier="tm-suggestion">Sydsudan</target>
+        </trans-unit>
+        <trans-unit id="ST" translate="yes" xml:space="preserve">
+          <source>Sao Tome and Principe</source>
+          <target state="final" state-qualifier="tm-suggestion">São Tomé och Príncipe</target>
+        </trans-unit>
+        <trans-unit id="SV" translate="yes" xml:space="preserve">
+          <source>El Salvador</source>
+          <target state="final" state-qualifier="tm-suggestion">El Salvador</target>
+        </trans-unit>
+        <trans-unit id="SX" translate="yes" xml:space="preserve">
+          <source>Sint Maarten (Dutch part)</source>
+          <target state="final" state-qualifier="tm-suggestion">Sint Maarten (nederländska delen)</target>
+        </trans-unit>
+        <trans-unit id="SY" translate="yes" xml:space="preserve">
+          <source>Syrian Arab Republic</source>
+          <target state="final" state-qualifier="tm-suggestion">Arabrepubliken Syrien</target>
+        </trans-unit>
+        <trans-unit id="SZ" translate="yes" xml:space="preserve">
+          <source>Swaziland</source>
+          <target state="final" state-qualifier="tm-suggestion">Swaziland</target>
+        </trans-unit>
+        <trans-unit id="TC" translate="yes" xml:space="preserve">
+          <source>Turks and Caicos Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Turks- och Caicosöarna</target>
+        </trans-unit>
+        <trans-unit id="TD" translate="yes" xml:space="preserve">
+          <source>Chad</source>
+          <target state="final" state-qualifier="tm-suggestion">Tchad</target>
+        </trans-unit>
+        <trans-unit id="TF" translate="yes" xml:space="preserve">
+          <source>French Southern Territories</source>
+          <target state="final" state-qualifier="tm-suggestion">Franska sydterritorierna</target>
+        </trans-unit>
+        <trans-unit id="TG" translate="yes" xml:space="preserve">
+          <source>Togo</source>
+          <target state="final" state-qualifier="tm-suggestion">Togo</target>
+        </trans-unit>
+        <trans-unit id="TH" translate="yes" xml:space="preserve">
+          <source>Thailand</source>
+          <target state="final" state-qualifier="tm-suggestion">Thailand</target>
+        </trans-unit>
+        <trans-unit id="TJ" translate="yes" xml:space="preserve">
+          <source>Tajikistan</source>
+          <target state="final" state-qualifier="tm-suggestion">Tadzjikistan</target>
+        </trans-unit>
+        <trans-unit id="TK" translate="yes" xml:space="preserve">
+          <source>Tokelau</source>
+          <target state="final" state-qualifier="tm-suggestion">Tokelau</target>
+        </trans-unit>
+        <trans-unit id="TL" translate="yes" xml:space="preserve">
+          <source>Timor-Leste</source>
+          <target state="final" state-qualifier="tm-suggestion">Timor-Leste</target>
+        </trans-unit>
+        <trans-unit id="TM" translate="yes" xml:space="preserve">
+          <source>Turkmenistan</source>
+          <target state="final" state-qualifier="tm-suggestion">Turkmenistan</target>
+        </trans-unit>
+        <trans-unit id="TN" translate="yes" xml:space="preserve">
+          <source>Tunisia</source>
+          <target state="final" state-qualifier="tm-suggestion">Tunisien</target>
+        </trans-unit>
+        <trans-unit id="TO" translate="yes" xml:space="preserve">
+          <source>Tonga</source>
+          <target state="final" state-qualifier="tm-suggestion">Tonga</target>
+        </trans-unit>
+        <trans-unit id="TR" translate="yes" xml:space="preserve">
+          <source>Turkey</source>
+          <target state="final" state-qualifier="tm-suggestion">Turkiet</target>
+        </trans-unit>
+        <trans-unit id="TT" translate="yes" xml:space="preserve">
+          <source>Trinidad and Tobago</source>
+          <target state="final" state-qualifier="tm-suggestion">Trinidad och Tobago</target>
+        </trans-unit>
+        <trans-unit id="TV" translate="yes" xml:space="preserve">
+          <source>Tuvalu</source>
+          <target state="final" state-qualifier="tm-suggestion">Tuvalu</target>
+        </trans-unit>
+        <trans-unit id="TW" translate="yes" xml:space="preserve">
+          <source>Taiwan (Republic of China)</source>
+          <target state="final">Taiwan (Republic of China)</target>
+        </trans-unit>
+        <trans-unit id="TZ" translate="yes" xml:space="preserve">
+          <source>Tanzania, United Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Förenade republiken Tanzania</target>
+        </trans-unit>
+        <trans-unit id="UA" translate="yes" xml:space="preserve">
+          <source>Ukraine</source>
+          <target state="final" state-qualifier="tm-suggestion">Ukraina</target>
+        </trans-unit>
+        <trans-unit id="UG" translate="yes" xml:space="preserve">
+          <source>Uganda</source>
+          <target state="final" state-qualifier="tm-suggestion">Uganda</target>
+        </trans-unit>
+        <trans-unit id="UM" translate="yes" xml:space="preserve">
+          <source>US Minor Outlying Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Förenta staternas mindre öar i Oceanien och Västindien</target>
+        </trans-unit>
+        <trans-unit id="US" translate="yes" xml:space="preserve">
+          <source>United States</source>
+          <target state="final" state-qualifier="tm-suggestion">USA</target>
+        </trans-unit>
+        <trans-unit id="UY" translate="yes" xml:space="preserve">
+          <source>Uruguay</source>
+          <target state="final" state-qualifier="tm-suggestion">Uruguay</target>
+        </trans-unit>
+        <trans-unit id="UZ" translate="yes" xml:space="preserve">
+          <source>Uzbekistan</source>
+          <target state="final" state-qualifier="tm-suggestion">Uzbekistan</target>
+        </trans-unit>
+        <trans-unit id="VA" translate="yes" xml:space="preserve">
+          <source>Holy See (Vatican City State)</source>
+          <target state="final" state-qualifier="tm-suggestion">Heliga stolen (Vatikanstaten)</target>
+        </trans-unit>
+        <trans-unit id="VC" translate="yes" xml:space="preserve">
+          <source>Saint Vincent and the Grenadines</source>
+          <target state="final" state-qualifier="tm-suggestion">Saint Vincent och Grenadinerna</target>
+        </trans-unit>
+        <trans-unit id="VE" translate="yes" xml:space="preserve">
+          <source>Venezuela, Bolivarian Republic of</source>
+          <target state="final" state-qualifier="tm-suggestion">Bolivariska republiken Venezuela</target>
+        </trans-unit>
+        <trans-unit id="VG" translate="yes" xml:space="preserve">
+          <source>Virgin Islands, British</source>
+          <target state="final" state-qualifier="tm-suggestion">Brittiska Jungfruöarna</target>
+        </trans-unit>
+        <trans-unit id="VI" translate="yes" xml:space="preserve">
+          <source>Virgin Islands, U.S.</source>
+          <target state="final" state-qualifier="tm-suggestion">Amerikanska Jungfruöarna</target>
+        </trans-unit>
+        <trans-unit id="VN" translate="yes" xml:space="preserve">
+          <source>Vietnam</source>
+          <target state="final" state-qualifier="tm-suggestion">Vietnam</target>
+        </trans-unit>
+        <trans-unit id="VU" translate="yes" xml:space="preserve">
+          <source>Vanuatu</source>
+          <target state="final" state-qualifier="tm-suggestion">Vanuatu</target>
+        </trans-unit>
+        <trans-unit id="WF" translate="yes" xml:space="preserve">
+          <source>Wallis and Futuna Islands</source>
+          <target state="final" state-qualifier="tm-suggestion">Wallis- och Futunaöarna</target>
+        </trans-unit>
+        <trans-unit id="WS" translate="yes" xml:space="preserve">
+          <source>Samoa</source>
+          <target state="final" state-qualifier="tm-suggestion">Samoa</target>
+        </trans-unit>
+        <trans-unit id="XK" translate="yes" xml:space="preserve">
+          <source>Kosovo</source>
+          <target state="final" state-qualifier="tm-suggestion">Kosovo</target>
+        </trans-unit>
+        <trans-unit id="YE" translate="yes" xml:space="preserve">
+          <source>Yemen</source>
+          <target state="final" state-qualifier="tm-suggestion">Jemen</target>
+        </trans-unit>
+        <trans-unit id="YT" translate="yes" xml:space="preserve">
+          <source>Mayotte</source>
+          <target state="final" state-qualifier="tm-suggestion">Mayotte</target>
+        </trans-unit>
+        <trans-unit id="ZA" translate="yes" xml:space="preserve">
+          <source>South Africa</source>
+          <target state="final" state-qualifier="tm-suggestion">Sydafrika</target>
+        </trans-unit>
+        <trans-unit id="ZM" translate="yes" xml:space="preserve">
+          <source>Zambia</source>
+          <target state="final" state-qualifier="tm-suggestion">Zambia</target>
+        </trans-unit>
+        <trans-unit id="ZW" translate="yes" xml:space="preserve">
+          <source>Zimbabwe</source>
+          <target state="final" state-qualifier="tm-suggestion">Zimbabwe</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
