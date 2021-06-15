@@ -56,7 +56,7 @@ namespace Awesome.XamarinHelpers.Countries
         private CountryHelper()
         {
             //Init
-            var thisNameSpace = this.GetType().Namespace;
+            var thisNameSpace = GetType().Namespace;
             var thisAssembly = typeof(CountryHelper).Assembly;
             var resourceStream = thisAssembly.GetManifestResourceStream($"{thisNameSpace}.CountryCodes.json");
 
