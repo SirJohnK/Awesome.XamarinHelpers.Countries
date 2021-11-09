@@ -12,7 +12,7 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>sirjohnk.ico</ApplicationIcon>
     <Title>Awesome.XamarinHelpers.Countries</Title>
-    <Version>1.0.0-beta</Version>
+    <Version>1.0.0</Version>
     <Authors>Johan Svensson</Authors>
     <Copyright>© 2021 Johan Svensson All Rights Reserved</Copyright>
     <Description>A awesome Xamarin helper project for handling country codes, names and flag images. Generates native flag images for target platform.</Description>
@@ -301,8 +301,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
-    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+    <PackageReference Include="Resizetizer.NT" Version="0.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\CountryNames.Designer.cs">
